@@ -1,10 +1,3 @@
-# Gated Fusion Transformer for Missing Data
-
-**Paper:** "Transformer-Based Feature Integration for Predictive Modeling in Multi-Source Business Environments"  
-**Journal:** 
-
----
-
 ## Overview
 
 This repository contains the complete experimental code for the **Gated Fusion Transformer**, an architecture for regression tasks where one data source is systematically absent at inference time.
