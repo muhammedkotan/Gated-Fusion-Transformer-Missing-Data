@@ -7,14 +7,13 @@ The model is validated on a restaurant sales prediction task where engagement (v
 
 ## Models
 
-| Model | Description | Params |
+| Model | Description | 
 |---|---|---|
-| Baseline | Single-stream, all features concatenated | ~20K |
-| Dual-Stream | Parallel sales/view streams, fixed 0.5 gate | ~20K |
-| Adaptive | Scalar alpha weighting on view mask | ~20K |
-| **GatedFusion** | **Learned soft gate ** | **~20K** |
-| XGBoost-Native | XGBoost with NaN-preserved engagement | — |
-| SAINT | Feature tokenisation + colrow attention | ~2M |
+| Baseline | Single-stream, all features concatenated | 
+| Dual-Stream | Parallel sales/view streams, fixed 0.5 gate | 
+| Adaptive | Scalar alpha weighting on view mask | 
+| **GatedFusion** | **Learned soft gate ** | 
+
 
 
 ## Architecture: Gated Fusion Transformer
