@@ -8,7 +8,7 @@ The model is validated on a restaurant sales prediction task where engagement (v
 ## Models
 
 | Model | Description | 
-|---|---|---|
+|---|---|
 | Baseline | Single-stream, all features concatenated | 
 | Dual-Stream | Parallel sales/view streams, fixed 0.5 gate | 
 | Adaptive | Scalar alpha weighting on view mask | 
